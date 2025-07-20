@@ -5,3 +5,4 @@ torch
 pillow
 requests
 protobuf
+sentencepiece
