@@ -18,7 +18,7 @@ app.add_middleware(
 # Load TrOCR model once globally
 model, processor = load_model()
 
-CROP_API_URL = "https://your-crop-api.onrender.com/crop/"  # replace with your deployed Crop API URL
+CROP_API_URL = "https://wordcrop.onrender.com/crop"  # replace with your deployed Crop API URL
 
 
 @app.post("/predict/")
